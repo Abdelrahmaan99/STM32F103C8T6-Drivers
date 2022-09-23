@@ -36,7 +36,7 @@ typedef struct
 
 
 /* Initialize array of Struct to carry Tasks */
-static Task OStasks[NUM_OF_TASKS] = {NULL};
+static Task OStasks[NUM_OF_TASKS] = {{NULL}};
 
 
 /******************************************************************************/
